@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+header{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	/*Any way to do this with a percentage/get heigh to just go to bottom of my boxes? w/o using px*/
+	height:85px;
+	width:100%;
+	background-color:#ffffff;
+	border-bottom-width:10px;
+	border-bottom-style:solid;
+	border-bottom-color:#cccccc;
+}
+
+.push{
+	height:85px;
+}
+
+section{
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+aside{
+	float:right;
+	margin:30px 75px 0px 0px;
+	width:30%;
+	height:200px;
+	background-color:#ffffff;
+	border-width:1px;
+	border-style:solid;
+	border-color:#cccccc;
+}
+
+footer{
+	border-top-color:#4aaaa5;
+	border-top-width:10px;
+	border-top-style:solid;
+	overflow:auto;
+	clear:both;
+	height:80px;
+	background-color: #666460;
+	color:#FFFFFF;
+	text-align:center;
+}
+
+#name{
+	float:left;
+	background-color:#4aaaa5;
+	margin:15px 0px 0px 75px;
+	width:300px;
+	text-align:center;
+	/*--Why doesn't this make my name white?  Created white-text class to get it to work*/
+	color:#FFFFFF;
+}
+
+#about-link{
+	float:right;
+	margin: 10px 10px 0px 10px;
+}
+
+#tutor-link{
+	float:right;
+	margin:10px 10px 0px 10px;
+}
+
+#portfolio-link{
+	float:right;
+	margin:10px 10px 0px 10px;
+}
+
+#contact-link{
+	float:right;
+	margin:10px 75px 0px 10px;
+}
+
+#main-content{
+	overflow:auto;
+	clear:both;
+	background-image:url('../images/bgpattern.png');
+	padding-bottom:50px;
+}
+
+#aboutme{
+	float:left;
+	background-color:#FFFFFF;
+	width:600px;
+	height:475px;
+	margin:30px 0px 0px 75px;
+	border-width: 1px;
+	border-style:solid;
+	border-color:#cccccc;
+}
+
+#portfolio-content{
+	float:left;
+	background-color:#FFFFFF;
+	width:600px;
+	height:600px;
+	margin:30px 0px 0px 75px;
+	border-width: 1px;
+	border-style:solid;
+	border-color:#cccccc;
+}
+
+#image{
+	float:left;
+	margin:30px 30px 10px 30px;
+	border-style:solid;
+	border-width:2px;
+	border-color:#cccccc;
+}
+
+/*To use for logo icons under connect me*/
+.logo{
+	float:left;
+	height: 64px;
+	width: 64px;
+	margin: 30px 30px 30px 30px;
+}
+
+.white-text{
+	color:#FFFFFF;
+}
+
+.margin{
+	margin:30px 0px 0px 30px;
+}
+
+.horizontalmargin{
+	margin:10px 30px 0px 30px;
+}
+
+.specialmargin{
+	margin:30px 30px 20px 50px;
+}
+
+/*to float left*/
+.left{
+	float:left;
+}
+
+.leftborder{
+	margin-left:10px;
+	border-left-width:1px;
+	border-left-color:#cccccc;
+	border-left-style:solid;
+	padding-left:15px;
+}
+
+a{
+	color:#222222;
+	text-decoration: none;
+}
+
+h1,h2,h3{
+	color: #4aaaa5;
+}
+
+/*Had to do this because H1 was appearing smaller than H2, http://stackoverflow.com/questions/22898559/why-is-h2-larger-than-h1 */
+h1{
+	font-size:2.5em;
+}
+
+hr{
+	margin:0px 30px 0px 30px;
+}
