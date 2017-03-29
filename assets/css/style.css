@@ -103,6 +103,17 @@ footer{
 	border-color:#cccccc;
 }
 
+#tutor-content{
+	float:left;
+	background-color:#FFFFFF;
+	width:600px;
+	height:600px;
+	margin:30px 0px 0px 75px;
+	border-width: 1px;
+	border-style:solid;
+	border-color:#cccccc;
+}
+
 #image{
 	float:left;
 	margin:30px 30px 10px 30px;
