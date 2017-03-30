@@ -13,10 +13,6 @@ header{
 	border-bottom-color:#cccccc;
 }
 
-.push{
-	height:85px;
-}
-
 section{
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -78,7 +74,7 @@ footer{
 	overflow:auto;
 	clear:both;
 	background-image:url('../images/bgpattern.png');
-	padding-bottom:50px;
+	padding-bottom:80px;
 }
 
 #aboutme{
@@ -96,7 +92,7 @@ footer{
 	float:left;
 	background-color:#FFFFFF;
 	width:600px;
-	height:600px;
+	height:800px;
 	margin:30px 0px 0px 75px;
 	border-width: 1px;
 	border-style:solid;
@@ -158,6 +154,24 @@ footer{
 	border-left-style:solid;
 	padding-left:15px;
 }
+
+.img{
+	padding:30px 30px 0px 30px;
+	position:relative;
+	display:inline-block;
+}
+
+.imgtext{
+	position:absolute;
+	top:150px;
+	left:30px;
+	width:200px;
+	background-color:#4aaaa5;
+	color:#ffffff;
+	text-align:center;
+}
+
+
 
 a{
 	color:#222222;
