@@ -18,6 +18,7 @@ section{
 }
 
 aside{
+	overflow: auto;
 	float:right;
 	margin:30px 75px 0px 0px;
 	width:30%;
