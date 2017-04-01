@@ -165,6 +165,11 @@ input[type=submit]{
 	margin: 30px 30px 30px 30px;
 }
 
+.logo:hover{
+	border-radius:10px;
+	background-color:#CDE0D2;
+}
+
 .white-text{
 	color:#FFFFFF;
 }
@@ -215,6 +220,11 @@ input[type=submit]{
 a{
 	color:#222222;
 	text-decoration: none;
+}
+
+a:hover{
+	text-decoration:underline;
+	color:#4A6EAA;
 }
 
 h1,h2,h3{
